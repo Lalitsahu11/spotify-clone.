@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone login?method</title>
+    <link rel="stylesheet" href="css/phone.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="logo">
+            <img width="110" class="invert" src="img/logo.svg" alt="">
+        </div>
+    </div>
+
+
+    <div>
+        <div class="phone-nbr invert">
+            <h1>Enter phone number </h1>
+        </div>
+        <div class="phonelogin-country">
+            <select name="inputCountryCode" id="phonelogin-country" data-testid="phonelogin-country"
+                class="Select-sc-3qvhho-0 gBiTxD">
+                <option disabled="" value="" ></option>
+                <option label="+20" value="EG">+20</option>
+                <option label="+27" value="ZA">+27</option>
+                <option label="+51" value="PE">+51</option>
+                <option label="+52" value="MX">+52</option>
+                <option label="+54" value="AR">+54</option>
+                <option label="+55" value="BR">+55</option>
+                <option label="+56" value="CL">+56</option>
+                <option label="+57" value="CO">+57</option>
+                <option label="+62" value="ID">+62</option>
+                <option label="+66" value="TH">+66</option>
+                <option label="+84" value="VN">+84</option>
+                <option  label="+91" value="IN" selected="">+91</option>
+                <option label="+212" value="MA">+212</option>
+                <option label="+213" value="DZ">+213</option>
+                <option label="+233" value="GH">+233</option>
+                <option label="+234" value="NG">+234</option>
+                <option label="+254" value="KE">+254</option>
+                <option label="+255" value="TZ">+255</option>
+                <option label="+256" value="UG">+256</option>
+                <option label="+593" value="EC">+593</option>
+                <option label="+852" value="HK">+852</option>
+                <option label="+966" value="SA">+966</option>
+                <option label="+971" value="AE">+971</option>
+            </select>
+
+            <input aria-invalid="false" id="phonelogin-phonenumber" name="inputPhoneNumber"
+                aria-describedby="error-phone-number-non-digit error-phone-number-invalid" placeholder="Phone number"
+                type="tel" data-testid="phonelogin-phonenumber" data-encore-id="formInput"
+                class="Input-sc-1gbx9xe-0 fOpTaL" value="">
+        </div>
+
+        <div class="btn-log">
+            <button>Next</button>
+        </div>
+    </div>
+</body>
+
+</html>
